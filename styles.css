@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a0dab; /* Google's blue color */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #dfe1e5; /* Google's border color */
+}
+
+input[type="text"] {
+    width: 400px; /* Adjust width to match Google's search bar */
+}
+
+input[type="submit"] {
+    background-color: #f2f2f2; /* Google's button background color */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e8e8e8; /* Lighter background color on hover */
+}
+
+.feeling-lucky {
+    display: block;
+    margin-top: 10px;
+    color: #1a0dab; /* Google's blue color */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.feeling-lucky:hover {
+    text-decoration: underline;
+}
+
+.advanced-search {
+    text-align: left;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.advanced-search label {
+    display: block;
+    margin-top: 10px;
+}
+
+.advanced-button {
+    background-color: #1a0dab; /* Google's blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.advanced-button:hover {
+    background-color: #0d0756; /* Darker blue on hover */
+}
