@@ -61,6 +61,7 @@ h1 {
 
 .search_bar {
   padding: 10px;
+  padding-left: 25px;
   margin: 10px;
   border-radius: 25px;
   border: 2px solid #dfe1e5;
@@ -188,19 +189,19 @@ h1 {
 }
 
 .a-button-container {
-    display: flex;
-    justify-content: flex-end; 
-    margin-right: 21%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 21%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .heading-container {
-    display: flex; 
-    justify-content: space-between; 
-  }
+  display: flex;
+  justify-content: space-between;
+}
 
-  .usage-heading {
-    color: #6b6b6b;
-    margin-right: 18px;
-  }
+.usage-heading {
+  color: #6b6b6b;
+  margin-right: 18px;
+}
