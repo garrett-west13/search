@@ -18,13 +18,13 @@
         <main>
             <div class="container">
                 <h1>Google</h1>
-                <form action="https://google.com/search">
-                    <input type="text" name="q" required>
+                <form id="myForm" action="https://www.google.com/search" method="get">
+                    <input type="text" name="q" autofocus="" title="Search" aria-label="Search" class="search_bar" maxlength="2048">
                     <div class="button-container">
-                        <input type="submit" value="Google Search">
-                        <a href="https://google.com/search?btnI=1&q=" class="feeling-lucky">I'm Feeling Lucky</a>
+                    <button type="submit" class="search_button" aria-label="Google Search" name="btnK" role="button" tabindex="0">Google Search</button>
+                    <button type="submit" class="search_button" aria-label="I'm Feeling Lucky" name="btnI" role="button" tabindex="0">I'm Feeling Lucky</button>
                     </div>
-                </form>
+                </form>                          
             </div>
         </main>
     </body>
